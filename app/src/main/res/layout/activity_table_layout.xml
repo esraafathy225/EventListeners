@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esraa.hp.eventlisteners.TableLayoutActivity">
+<TableRow>
+    <Button
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:text="Row1"
+        android:textColor="#FFF"/>
+</TableRow>
+    <TableRow>
+        <Button
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Row2\nCol1"
+            android:textColor="#FFF"/>
+        <Button
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Row2\nCol2"
+            android:textColor="#FFF"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Row3\nCol1"
+            android:textColor="#FFF"/>
+        <Button
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Row3\nCol2"
+            android:textColor="#FFF"/>
+        <Button
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Row3\nCol3"
+            android:textColor="#FFF"/>
+    </TableRow>
+</TableLayout>
